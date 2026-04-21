@@ -111,3 +111,12 @@ El propio `pytest.ini` exige cobertura minima del 80%.
 - **Integracion continua**: GitHub Actions corre los tests en cada push (`.github/workflows/ci.yml`).
 - **Stand-ups diarios**: ver `DAILYS.md`.
 
+
+## Autores
+
+| Nombre | GitHub | Email |
+|--------|--------|-------|
+| Miguel Poudereux | @Poudereux | 9401312@alumnos.ufv.es |
+| Ivan Alba | @ivaneguinoa | 9403674@alumnos.ufv.es |
+| Alvaro de Celis | @alvarro1 | 9406189@alumnos.ufv.es |
+| Gonzalo Carrasco | @GonzaloCarrascoBarros | 9405444@alumnos.ufv.es |

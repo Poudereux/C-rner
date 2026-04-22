@@ -28,3 +28,14 @@ htmlcov/
 *.db
 *.sqlite
 *.sqlite3
+
+# Editor swap files
+*.swp
+*.swo
+*~
+
+# Logs locales
+*.log
+
+# Variables de entorno locales
+.env.local

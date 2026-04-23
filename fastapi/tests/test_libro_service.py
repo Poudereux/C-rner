@@ -78,3 +78,15 @@ def test_buscar_con_texto_pasa_al_repo():
     service.buscar("Orwell")
 
     repo.buscar.assert_called_once_with("Orwell")
+
+
+def test_buscar_solo_whitespace_devuelve_listar():
+    """Caso limite: tabs y saltos de linea cuentan como busqueda vacia."""
+    repo = MagicMock()
+    repo.listar.return_value = []
+    service = LibroService(repo)
+
+    service.buscar("\t\n  ")
+
+    repo.listar.assert_called_once()
+    repo.buscar.assert_not_called()

@@ -42,7 +42,7 @@ def _check(response: requests.Response) -> Any:
 # ---------------------------------------------------------------------------
 # LIBROS
 # ---------------------------------------------------------------------------
-@st.cache_data(ttl=10)
+@st.cache_data(ttl=15)
 def listar_libros(q: Optional[str] = None) -> List[Dict[str, Any]]:
     """Cacheado 10s para no machacar a la API en cada interaccion."""
     params = {"q": q} if q else {}
@@ -64,7 +64,7 @@ def crear_libro(titulo: str, autor: str, genero: str) -> Dict[str, Any]:
 # ---------------------------------------------------------------------------
 # USUARIOS
 # ---------------------------------------------------------------------------
-@st.cache_data(ttl=10)
+@st.cache_data(ttl=15)
 def listar_usuarios() -> List[Dict[str, Any]]:
     r = requests.get(f"{API_URL}/usuarios/", timeout=5)
     return _check(r)

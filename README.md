@@ -1,5 +1,7 @@
 # Practica Final: Gestor de Bibliotecas
 
+![Python](https://img.shields.io/badge/python-3.11-blue) ![Tests](https://img.shields.io/badge/tests-32_passing-brightgreen) ![Coverage](https://img.shields.io/badge/coverage-92%25-brightgreen)
+
 Sistema de gestion de catalogo y prestamos de una biblioteca.
 Asignatura: Programacion II.
 

@@ -51,7 +51,7 @@ if enviar:
     try:
         devolver_prestamo(prestamo["id"])
         st.success(
-            f"Prestamo #{prestamo['id']} de '{prestamo['libro_titulo']}' devuelto."
+            f"Devolucion registrada: '{prestamo['libro_titulo']}' (prestamo #{prestamo['id']})."
         )
         st.rerun()
     except ApiError as exc:

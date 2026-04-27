@@ -1,7 +1,7 @@
 # Dailys
 
 Stand-ups del grupo. Formato libre.
-Equipo: Miguel Poudereux (lider), Ivan Alba, Alvaro de Celis, Gonzalo Carrasco.
+Equipo: Miguel Poudereux , Ivan Alba, Alvaro de Celis, Gonzalo Carrasco.
 
 ---
 

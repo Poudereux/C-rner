@@ -121,4 +121,4 @@ El propio `pytest.ini` exige cobertura minima del 80%.
 | Miguel Poudereux | @Poudereux | 9401312@alumnos.ufv.es |
 | Ivan Alba | @ivaneguinoa | 9403674@alumnos.ufv.es |
 | Alvaro de Celis | @alvarro1 | 9406189@alumnos.ufv.es |
-| Gonzalo Carrasco | @GonzaloCarrascoBarros | 9405444@alumnos.ufv.es |
+| Gonzalo Carrasco | @Gonzalocarrascob| 9405444@alumnos.ufv.es |

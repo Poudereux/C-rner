@@ -1,6 +1,6 @@
 """Sesión de base de datos y context manager para usarla con `with`.
 
-Usar `session_scope()` con `with` (criterio Sobresaliente: context managers)
+Usar `session_scope()` con `with`
 garantiza que la sesión siempre se cierra, haciendo commit si todo va bien
 o rollback si hay excepción.
 """

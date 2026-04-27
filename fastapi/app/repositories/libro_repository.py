@@ -42,7 +42,7 @@ class LibroRepository:
         """Generador (yield) sobre todos los libros.
 
         Útil para procesar grandes catálogos sin cargarlos enteros en
-        memoria (criterio Sobresaliente: generadores).
+        memoria.
         """
         for libro in self._s.scalars(select(Libro).order_by(Libro.id)).yield_per(100):
             yield libro

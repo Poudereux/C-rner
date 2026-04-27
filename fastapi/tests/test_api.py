@@ -1,4 +1,4 @@
-"""Tests de integración con TestClient (criterio Matrícula).
+"""Tests de integración con TestClient.
 
 Cubren el ciclo completo: crear libro → crear usuario → prestar →
 devolver → consultar historial. Usan SQLite en memoria.

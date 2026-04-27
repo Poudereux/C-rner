@@ -1,6 +1,6 @@
 """Decoradores propios usados por los servicios.
 
-Demuestran el uso justificado de decoradores (criterio Sobresaliente).
+Centralizan logging y trazabilidad fuera de la logica de negocio.
 """
 from __future__ import annotations
 

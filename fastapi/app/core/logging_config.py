@@ -1,6 +1,6 @@
 """Configuración del logger de la aplicación.
 
-Tres niveles de logging (INFO, WARNING, ERROR) tal y como exige el enunciado.
+Tres niveles de logging: INFO, WARNING, ERROR.
 """
 from __future__ import annotations
 

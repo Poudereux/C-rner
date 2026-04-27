@@ -1,0 +1,1 @@
+# DEPRECATED: la persistencia ahora la hace SQLAlchemy en biblioteca.db (SQLite).

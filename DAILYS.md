@@ -7,8 +7,7 @@ Equipo: Miguel Poudereux , Ivan Alba, Alvaro de Celis, Gonzalo Carrasco.
 
 ### 2026-04-06 
 Leimos el enunciado entero y decidimos el stack:
-FastAPI + SQLAlchemy + Streamlit + Docker. Miguel propuso usar SQLite para
-el sprint 1 y migrar a Postgres si daba tiempo (al final no dio).
+FastAPI + SQLAlchemy + Streamlit + Docker.
 Repartimos las HUs:
 - Miguel + Ivan: backend (modelos, repos, services).
 - Alvaro: frontend Streamlit.
